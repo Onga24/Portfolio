@@ -1,0 +1,347 @@
+.experiencemobile-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.experiencemobile-experiencemobile {
+  width: 100%;
+  height: 2402px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(12, 12, 13, 1);
+}
+ 
+.experiencemobile-group591 {
+  top: 2276px;
+  left: 0px;
+  width: 345px;
+  height: 126px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.experiencemobile-frame55 {
+  gap: 85px;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  padding: 24px 26px;
+  overflow: hidden;
+  position: absolute;
+  align-items: center;
+  border-radius: 100px;
+  justify-content: center;
+  background-color: rgba(15, 15, 15, 1);
+}
+ 
+.experiencemobile-text10 {
+  color: rgba(179, 179, 179, 1);
+  height: auto;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Nunito;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.experiencemobile-group53 {
+  width: 132px;
+  height: 32px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.experiencemobile-mdigithub {
+  top: 0px;
+  left: 0px;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+}
+ 
+.experiencemobile-mdilinkedin {
+  top: 0px;
+  left: 50px;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+}
+ 
+.experiencemobile-link {
+  display: contents;
+}
+ 
+.experiencemobile-materialsymbolsmailrounded {
+  top: 0px;
+  left: 100px;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+}
+ 
+.experiencemobile-text11 {
+  top: 98px;
+  left: 26px;
+  color: var(--dl-color-default-white);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Light;
+  text-align: left;
+  font-family: Nunito;
+  font-weight: 300;
+  line-height: 28px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.experiencemobile-group58 {
+  top: 134px;
+  left: 58px;
+  width: 291px;
+  height: 180px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.experiencemobile-text12 {
+  color: var(--dl-color-default-gray300);
+  width: 291px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Light;
+  text-align: center;
+  font-family: Raleway;
+  font-weight: 300;
+  line-height: 32px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.experiencemobile-cv-btn {
+  gap: 8px;
+  top: 134px;
+  left: 47px;
+  display: flex;
+  padding: 12px 40px;
+  overflow: hidden;
+  position: absolute;
+  align-items: center;
+  border-radius: 100px;
+  justify-content: center;
+  background-color: var(--dl-color-default-white);
+}
+ 
+.experiencemobile-text13 {
+  color: var(--dl-color-default-gray900);
+  height: auto;
+  font-size: 16px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Nunito;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.experiencemobile-frame56 {
+  gap: 32px;
+  top: 408px;
+  left: 14px;
+  width: 360px;
+  height: 1810px;
+  display: flex;
+  padding: 0 10px;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: space-between;
+}
+ 
+.experiencemobile-group592 {
+  width: 340px;
+  height: 1810px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(19, 19, 19, 1);
+}
+ 
+.experiencemobile-frame10 {
+  gap: 10px;
+  top: 70px;
+  left: 38px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.experiencemobile-frame4 {
+  gap: 12px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.experiencemobile-text14 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  font-size: 16px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Raleway;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.experiencemobile-text15 {
+  color: var(--dl-color-default-purple300);
+  height: auto;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Raleway;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.experiencemobile-group18 {
+  width: 160px;
+  height: 43px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.experiencemobile-period {
+  gap: 12px;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+}
+ 
+.experiencemobile-text16 {
+  color: rgba(112, 112, 112, 1);
+  height: auto;
+  font-size: 16px;
+  font-style: Light;
+  text-align: left;
+  font-family: Nunito;
+  font-weight: 300;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.experiencemobile-ellipse2 {
+  width: 6px;
+  height: 6px;
+}
+ 
+.experiencemobile-text17 {
+  color: rgba(112, 112, 112, 1);
+  height: auto;
+  font-size: 16px;
+  font-style: Light;
+  text-align: left;
+  font-family: Nunito;
+  font-weight: 300;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.experiencemobile-text18 {
+  top: 24px;
+  color: rgba(112, 112, 112, 1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Light;
+  text-align: left;
+  font-family: Raleway;
+  font-weight: 300;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.experiencemobile-frame12 {
+  gap: 16px;
+  top: 256px;
+  left: 46px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.experiencemobile-text19 {
+  color: var(--dl-color-default-purple300);
+  height: auto;
+  font-size: 22px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Raleway;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.experiencemobile-frame11 {
+  gap: 28px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.experiencemobile-text20 {
+  color: var(--dl-color-default-gray400);
+  width: 249px;
+  height: auto;
+  font-size: 22px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Raleway;
+  font-weight: 400;
+  line-height: 42px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.experiencemobile-vector {
+  top: 22.9964599609375px;
+  left: 15px;
+  width: 36px;
+  height: 34px;
+  position: absolute;
+}

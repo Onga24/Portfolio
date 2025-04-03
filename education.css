@@ -1,0 +1,344 @@
+.education-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+ 
+.education-education {
+  width: 100%;
+  height: 1680px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: var(--dl-color-theme-neutral-dark);
+  border-width: 0px;
+  background-color: var(--dl-color-default-gray900);
+}
+ 
+.education-frame16 {
+  gap: 14px;
+  top: 3069px;
+  left: 122px;
+  width: 100px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+}
+ 
+.education-vector {
+  top: 243px;
+  left: 430px;
+  width: 250px;
+  height: 235px;
+  position: absolute;
+}
+ 
+.education-frame55 {
+  gap: 10px;
+  top: 232px;
+  left: 43px;
+  width: 1177px;
+  height: 287px;
+  display: flex;
+  padding: 71px 30px;
+  position: absolute;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) ;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(39, 39, 39, 1);
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 80px;
+  flex-direction: column;
+}
+ 
+.education-frame54 {
+  gap: 10px;
+  display: flex;
+  padding: 0 30px;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.education-frame10 {
+  gap: 10px;
+  display: flex;
+  padding: 0 30px;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.education-frame4 {
+  gap: 16px;
+  display: flex;
+  padding: 0 10px;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.education-frame19 {
+  gap: 12px;
+  display: flex;
+  padding: 0 30px;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.education-text10 {
+  color: var(--dl-color-default-white);
+  height: auto;
+  font-size: 28px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Raleway;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.education-text11 {
+  color: var(--dl-color-default-purple300);
+  height: auto;
+  font-size: 22px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Raleway;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.education-frame18 {
+  gap: 10px;
+  height: 22px;
+  display: flex;
+  padding: 0 30px;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: space-between;
+}
+ 
+.education-period {
+  gap: 12px;
+  width: 1089px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+ 
+.education-text14 {
+  color: var(--dl-color-default-gray400);
+  height: auto;
+  font-size: 16px;
+  font-style: Light;
+  text-align: left;
+  font-family: Nunito;
+  font-weight: 300;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.education-ellipse2 {
+  width: 6px;
+  height: 6px;
+}
+ 
+.education-text15 {
+  color: var(--dl-color-default-gray400);
+  height: auto;
+  font-size: 16px;
+  font-style: Light;
+  text-align: left;
+  font-family: Nunito;
+  font-weight: 300;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.education-frame56 {
+  gap: 28px;
+  right: 0px;
+  width: 1157px;
+  bottom: 0px;
+  margin: auto;
+  display: flex;
+  padding: 0 20px;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: row;
+}
+ 
+.education-frame48 {
+  width: 1098px;
+  display: flex;
+  padding: 25px 30px;
+  max-width: 100%;
+  align-self: center;
+  align-items: flex-end;
+  flex-shrink: 0;
+  border-radius: 100px;
+  justify-content: flex-start;
+  background-color: var(--dl-color-default-gray800);
+}
+ 
+.education-text16 {
+  color: var(--dl-color-default-gray400);
+  width: 1017px;
+  height: 58px;
+  display: flex;
+  font-size: 26px;
+  align-self: stretch;
+  font-style: Regular;
+  text-align: left;
+  align-items: flex-start;
+  font-family: Nunito;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  flex-direction: row;
+  justify-content: flex-start;
+  text-decoration: none;
+}
+ 
+.education-frame52 {
+  gap: 18px;
+  width: 100%;
+  display: flex;
+  align-self: stretch;
+  transition: 0.3s;
+  align-items: stretch;
+  justify-content: flex-end;
+}
+ 
+.education-frame52:active {
+  flex: 1;
+}
+ 
+.education-mdigithub1 {
+  width: 32px;
+  height: 32px;
+}
+ 
+.education-mdilinkedin1 {
+  width: 32px;
+  height: 32px;
+}
+ 
+.education-link1 {
+  display: contents;
+}
+ 
+.education-materialsymbolsmailrounded1 {
+  width: 32px;
+  height: 32px;
+}
+ 
+.education-frame401 {
+  top: 23px;
+  left: 311px;
+  width: auto;
+  height: 70px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 100px;
+  background-color: rgba(32, 31, 35, 0.3499999940395355);
+}
+ 
+.education-frame402 {
+  gap: 42px;
+  top: 18.5px;
+  left: 17.5px;
+  width: 587px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+}
+ 
+.education-text17 {
+  color: var(--dl-color-default-purple300);
+  height: auto;
+  font-size: 20px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Raleway;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.education-text18 {
+  color: var(--dl-color-default-purple300);
+  height: auto;
+  font-size: 20px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Raleway;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.education-text19{
+  color: var(--dl-color-default-purple300);
+  height: auto;
+  font-size: 20px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Raleway;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+
+}
+ 
+.education-contact {
+  gap: 16px;
+  display: flex;
+  align-items: flex-start;
+}
+ 
+.education-link2 {
+  display: contents;
+}
+ 
+.education-solarfigmaboldduotone {
+  width: 24px;
+  height: 24px;
+}
+ 
+.education-link3 {
+  display: contents;
+}
+ 
+.education-mdigithub2 {
+  width: 24px;
+  height: 24px;
+}
+ 
+.education-materialsymbolsmailrounded2 {
+  width: 24px;
+  height: 24px;
+}
+ 
+.education-mdilinkedin2 {
+  width: 32px;
+  height: 32px;
+}

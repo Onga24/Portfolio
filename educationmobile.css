@@ -1,0 +1,212 @@
+.educationmobile-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.educationmobile-educationmobile {
+  width: 100%;
+  height: 1164px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(12, 12, 13, 1);
+}
+ 
+.educationmobile-group59 {
+  top: 1038px;
+  left: 0.000194549560546875px;
+  width: 345px;
+  height: 126px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.educationmobile-frame551 {
+  gap: 85px;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  padding: 24px 26px;
+  overflow: hidden;
+  position: absolute;
+  align-items: center;
+  border-radius: 100px;
+  justify-content: center;
+  background-color: rgba(15, 15, 15, 1);
+}
+ 
+.educationmobile-text1 {
+  color: rgba(179, 179, 179, 1);
+  height: auto;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Nunito;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.educationmobile-group53 {
+  width: 132px;
+  height: 32px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.educationmobile-mdigithub {
+  top: 0px;
+  left: 0px;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+}
+ 
+.educationmobile-mdilinkedin {
+  top: 0px;
+  left: 50px;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+}
+ 
+.educationmobile-link {
+  display: contents;
+}
+ 
+.educationmobile-materialsymbolsmailrounded {
+  top: 0px;
+  left: 100px;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+}
+ 
+.educationmobile-text2 {
+  top: 98px;
+  left: 26px;
+  color: var(--dl-color-default-white);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Light;
+  text-align: left;
+  font-family: Nunito;
+  font-weight: 300;
+  line-height: 28px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.educationmobile-frame552 {
+  gap: 10px;
+  top: 180px;
+  left: 14px;
+  width: 371px;
+  height: 273px;
+  display: flex;
+  padding: 71px 10px;
+  position: absolute;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) ;
+  align-items: flex-end;
+  flex-shrink: 0;
+  border-color: rgba(39, 39, 39, 1);
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 80px;
+  justify-content: space-between;
+}
+ 
+.educationmobile-frame19 {
+  gap: 50px;
+  height: 131px;
+  display: flex;
+  padding: 0 30px;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.educationmobile-text3 {
+  color: var(--dl-color-default-white);
+  height: auto;
+  font-size: 28px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Raleway;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.educationmobile-text4 {
+  color: var(--dl-color-default-purple300);
+  width: 310px;
+  height: auto;
+  font-size: 22px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Raleway;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.educationmobile-period {
+  gap: 12px;
+  display: flex;
+  align-items: center;
+}
+ 
+.educationmobile-text7 {
+  color: var(--dl-color-default-gray400);
+  height: auto;
+  font-size: 16px;
+  font-style: Light;
+  text-align: left;
+  font-family: Nunito;
+  font-weight: 300;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.educationmobile-ellipse2 {
+  width: 6px;
+  height: 6px;
+}
+ 
+.educationmobile-text8 {
+  color: var(--dl-color-default-gray400);
+  height: auto;
+  font-size: 16px;
+  font-style: Light;
+  text-align: left;
+  font-family: Nunito;
+  font-weight: 300;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.educationmobile-vector {
+  top: 22.9964599609375px;
+  left: 15px;
+  width: 36px;
+  height: 34px;
+  position: absolute;
+}
