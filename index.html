@@ -1,8 +1,3 @@
-<script>
-  if (window.innerWidth <= 480) {
-    window.location.href = "homemobile.html";
-  }
-</script>
 <!DOCTYPE html>
 <html lang="english">
   <head>
@@ -12,7 +7,7 @@
     <meta property="twitter:card" content="summary_large_image" />
 
     <style data-tag="reset-style-sheet">
-      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;  -webkit-font-smoothing: antialiased;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {    color: inherit;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}details {  display: block;  margin: 0;  padding: 0;}summary::-webkit-details-marker {  display: none;}[data-thq="accordion"] [data-thq="accordion-content"] {  max-height: 0;  overflow: hidden;  transition: max-height 0.3s ease-in-out;  padding: 0;}[data-thq="accordion"] details[data-thq="accordion-trigger"][open] + [data-thq="accordion-content"] {  max-height: 1000vh;}details[data-thq="accordion-trigger"][open] summary [data-thq="accordion-icon"] {  transform: rotate(180deg);}html { scroll-behavior: smooth  }
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;  -webkit-font-smoothing: antialiased;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {   color: inherit;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}details {  display: block;  margin: 0;  padding: 0;}summary::-webkit-details-marker {  display: none;}[data-thq="accordion"] [data-thq="accordion-content"] {  max-height: 0;  overflow: hidden;  transition: max-height 0.3s ease-in-out;  padding: 0;}[data-thq="accordion"] details[data-thq="accordion-trigger"][open] + [data-thq="accordion-content"] {  max-height: 1000vh;}details[data-thq="accordion-trigger"][open] summary [data-thq="accordion-icon"] {  transform: rotate(180deg);}html { scroll-behavior: smooth  }
     </style>
     <style data-tag="default-style-sheet">
       html {
@@ -526,340 +521,263 @@
       rel="stylesheet"
       href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
     />
+    <script>
+      function checkWidthAndRedirect() {
+        if (window.innerWidth >= 790 && !window.location.href.includes("index.html")) {
+          window.location.replace("index.html");
+        }
+      }
+    
+      // Run on load
+      checkWidthAndRedirect();
+    
+      // Run on resize
+      window.addEventListener("resize", checkWidthAndRedirect);
+    </script>
   </head>
   <body>
     <link rel="stylesheet" href="./style.css" />
     <div>
-      <link href="./index.css" rel="stylesheet" />
+      <link href="./homemobile.css" rel="stylesheet" />
 
-      <div class="home-container">
-        <div class="home-home">
-          <div class="home-picture">
-            <img
-              src="public/external/profilepic12704-swc-500w.png"
-              alt="ProfilePic12704"
-              class="home-profile-pic1"
-            />
+      <div class="homemobile-container">
+        <div class="homemobile-homemobile">
+          <div class="homemobile-frame44">
+            <div class="homemobile-languges">
+              <div class="homemobile-group43">
+                <div class="homemobile-group421">
+                  <img
+                    src="public/external/js2740-h196.svg"
+                    alt="js2740"
+                    class="homemobile-js"
+                  />
+                  <span class="homemobile-text10">JavaScript</span>
+                </div>
+              </div>
+              <div class="homemobile-group471">
+                <div class="homemobile-group422">
+                  <span class="homemobile-text11">HTML</span>
+                  <div class="homemobile-frameiconfiletypehtml">
+                    <img
+                      src="public/external/vector2740-40bat.svg"
+                      alt="Vector2740"
+                      class="homemobile-vector1"
+                    />
+                    <img
+                      src="public/external/vector2740-gpkh.svg"
+                      alt="Vector2740"
+                      class="homemobile-vector2"
+                    />
+                    <img
+                      src="public/external/vector2740-37kt.svg"
+                      alt="Vector2740"
+                      class="homemobile-vector3"
+                    />
+                    <img
+                      src="public/external/vector2740-4rch.svg"
+                      alt="Vector2740"
+                      class="homemobile-vector4"
+                    />
+                    <div class="homemobile-group1">
+                      <img
+                        src="public/external/vector2740-99aj.svg"
+                        alt="Vector2740"
+                        class="homemobile-vector5"
+                      />
+                      <img
+                        src="public/external/vector2740-cseg.svg"
+                        alt="Vector2740"
+                        class="homemobile-vector6"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="homemobile-group44">
+                <div class="homemobile-group423">
+                  <span class="homemobile-text12">CSS</span>
+                  <div class="homemobile-frameiconfiletypecss">
+                    <div class="homemobile-group2"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="homemobile-group45">
+                <div class="homemobile-group424">
+                  <span class="homemobile-text13">SQL</span>
+                  <div class="homemobile-simpleiconsnextdotjs">
+                    <img
+                      src="public/external/image22740-urbm-200h.png"
+                      alt="image22740"
+                      class="homemobile-image2"
+                    />
+                  </div>
+                  <div class="homemobile-nextjs"></div>
+                </div>
+              </div>
+              <div class="homemobile-group46">
+                <div class="homemobile-group425">
+                  <span class="homemobile-text14">Figma</span>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="home-frame621">
-            <span class="home-text10">Hi, I’m Mohamed Onga</span>
-            <span class="home-text11">
-              <span class="home-text12">A passionate</span>
-              <span class="home-text13">Front-end developer</span>
+          <img
+            src="public/external/vector5951-ph0h.svg"
+            alt="Vector5951"
+            class="homemobile-vector7"
+          />
+          <div class="homemobile-group472">
+            <span class="homemobile-text15">Javascript</span>
+            <span class="homemobile-text16">HTML</span>
+            <span class="homemobile-text17">CSS</span>
+          </div>
+          <span class="homemobile-text18">
+            These are the technologies I’ve been using so far
+          </span>
+          <div class="homemobile-group50">
+            <div class="homemobile-frame55">
+              <span class="homemobile-text19">Follow me</span>
+              <div class="homemobile-group53">
+                <img
+                  src="public/external/mdigithub2740-f74k.svg"
+                  alt="mdigithub2740"
+                  class="homemobile-mdigithub"
+                />
+                <img
+                  src="public/external/mdilinkedin2740-06q.svg"
+                  alt="mdilinkedin2740"
+                  class="homemobile-mdilinkedin"
+                />
+                <a
+                  href="Ongamohamed89@gmail.com"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  class="homemobile-link"
+                >
+                  <img
+                    src="public/external/materialsymbolsmailrounded2740-iovv.svg"
+                    alt="materialsymbolsmailrounded2740"
+                    class="homemobile-materialsymbolsmailrounded"
+                  />
+                </a>
+              </div>
+            </div>
+            <span class="homemobile-text20">Mohamed Onga © 2025</span>
+          </div>
+          <div class="homemobile-frame68">
+            <span class="homemobile-text21">Hi, I’m Mohamed Onga</span>
+            <span class="homemobile-text22">
+              <span class="homemobile-text23">A passionate</span>
+              <span class="homemobile-text24">Front-end developer</span>
               <span>
                 with a deep interest in solving complex problems through clean,
                 efficient code. With a degree from the German International
                 University
               </span>
             </span>
-            <div class="home-cv-btn1">
-              <div class="home-cv-btn2">
-                <a href="/pdf.html">
-                <span class="home-text15">Download CV</span>
-                </a>
+            <div class="homemobile-cv-btn1">
+              <div class="homemobile-cv-btn2">
+                <span class="homemobile-text26">Download CV</span>
               </div>
             </div>
           </div>
-          <div class="home-frame49">
-            <span class="home-text16">
+          <div class="homemobile-frame51">
+            <span class="homemobile-text27">1 years of</span>
+            <span class="homemobile-text28">XP</span>
+            <span class="homemobile-text29">Working with the following</span>
+          </div>
+          <div class="homemobile-frame49">
+            <span class="homemobile-text30">
               <span>These are the</span>
               <br />
               <span>technologies I’ve been using so far</span>
             </span>
-            <div class="home-group53">
-              <div class="home-group34">
-                <div class="home-frame19">
-                  <div class="home-group17">
-                    <span class="home-text20">Front-end Engineer Design</span>
-                    <div class="home-frame20">
-                      <div class="home-frame401">
-                        <div class="home-group9">
+            <div class="homemobile-frame53">
+              <div class="homemobile-group34">
+                <div class="homemobile-frame19">
+                  <div class="homemobile-frame17">
+                    <span class="homemobile-text34">
+                      Front-end Engineer Design
+                    </span>
+                    <div class="homemobile-frame20">
+                      <div class="homemobile-frame40">
+                        <div class="homemobile-group9">
                           <img
-                            src="public/external/ellipse35719-6f7u-200h.png"
-                            alt="Ellipse35719"
-                            class="home-ellipse31"
+                            src="public/external/ellipse32740-6rdp-200w.png"
+                            alt="Ellipse32740"
+                            class="homemobile-ellipse31"
                           />
                           <img
-                            src="public/external/logosfigma5719-oy0p.svg"
-                            alt="logosfigma5719"
-                            class="home-logosfigma"
+                            src="public/external/logosfigma2740-xa2r.svg"
+                            alt="logosfigma2740"
+                            class="homemobile-logosfigma"
                           />
                         </div>
-                        <span class="home-text21">Figma</span>
+                        <span class="homemobile-text35">Figma</span>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="home-group36">
-                <div class="home-frame181">
-                  <span class="home-text22">Languages</span>
-                  <div class="home-frame182">
-                    <div class="home-frame37">
-                      <div class="home-group111">
+              <div class="homemobile-group36">
+                <div class="homemobile-frame181">
+                  <span class="homemobile-text36">Languages</span>
+                  <div class="homemobile-frame182">
+                    <div class="homemobile-frame37">
+                      <div class="homemobile-group111">
                         <img
-                          src="public/external/ellipse35713-p6x-200h.png"
-                          alt="Ellipse35713"
-                          class="home-ellipse32"
+                          src="public/external/ellipse32740-bntd-200h.png"
+                          alt="Ellipse32740"
+                          class="homemobile-ellipse32"
                         />
                         <img
-                          src="public/external/vscodeiconsfiletypejsofficial5713-1mwj.svg"
-                          alt="vscodeiconsfiletypejsofficial5713"
-                          class="home-vscodeiconsfiletypejsofficial"
+                          src="public/external/vscodeiconsfiletypejsofficial2740-du3r.svg"
+                          alt="vscodeiconsfiletypejsofficial2740"
+                          class="homemobile-vscodeiconsfiletypejsofficial"
                         />
                       </div>
-                      <span class="home-text23">Javascript</span>
+                      <span class="homemobile-text37">Javascript</span>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="home-group38">
-                <div class="home-frame14">
-                  <span class="home-text24">Back-end</span>
-                  <div class="home-frame183">
-                    <div class="home-frame39">
-                      <div class="home-group112">
+              <div class="homemobile-group38">
+                <div class="homemobile-frame14">
+                  <span class="homemobile-text38">Back-end</span>
+                  <div class="homemobile-frame183">
+                    <div class="homemobile-frame39">
+                      <div class="homemobile-group112">
                         <img
-                          src="public/external/ellipse35713-452-200h.png"
-                          alt="Ellipse35713"
-                          class="home-ellipse33"
+                          src="public/external/ellipse32740-fqsf-200h.png"
+                          alt="Ellipse32740"
+                          class="homemobile-ellipse33"
                         />
                         <img
-                          src="public/external/mdinodejs5713-s2tt.svg"
-                          alt="mdinodejs5713"
-                          class="home-mdinodejs"
+                          src="public/external/mdinodejs2740-vmf.svg"
+                          alt="mdinodejs2740"
+                          class="homemobile-mdinodejs"
                         />
                       </div>
-                      <span class="home-text25">Node.js</span>
+                      <span class="homemobile-text39">Node.js</span>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="home-frame16"></div>
-          <div class="home-frame50">
-            <div class="home-frame48">
-              <span class="home-text26">Follow_me</span>
-              <div class="home-group52">
-              <a
-                href="https://github.com/Onga24"
-                target="_blank"
-                rel="noreferrer noopener"
-                class="home-link1"
-               > 
-                  <img
-                    src="public/external/mdigithub5714-9iks.svg"
-                    alt="mdigithub5714"
-                    class="home-mdigithub1"
-                  />
-              </a>
-              <a
-              href="https://www.linkedin.com/in/mohamed-mahmoud-onga/"
-              target="_blank"
-              rel="noreferrer noopener"
-              class="home-link1"
-             > 
-                <img
-                  src="public/external/mdilinkedin5714-b79.svg"
-                  alt="mdilinkedin5714"
-                  class="home-mdilinkedin1"
-                />
-              </a>
-                <a
-                  href="Ongamohamed89@gmail.com"
-                  target="_blank"
-                  rel="noreferrer noopener"
-                  class="home-link1"
-                >
-                  <img
-                    src="public/external/materialsymbolsmailrounded5714-k0q.svg"
-                    alt="materialsymbolsmailrounded5714"
-                    class="home-materialsymbolsmailrounded1"
-                  />
-                </a>
-              </div>
+          <div class="homemobile-frame69">
+            <div class="homemobile-frame67">
+              <img
+                src="public/external/profilepic12740-54lp-200h.png"
+                alt="ProfilePic12740"
+                class="homemobile-profile-pic1"
+              />
             </div>
-            <span class="home-text27">Mohamed Onga© 2025</span>
-          </div>
-          <div class="home-frame622">
-            <div class="home-frame51">
-              <span class="home-text28">1 years of</span><br>
-              <span class="home-text29">XP</span>
-              <span class="home-text30">Working with the following</span>
-            </div>
-          </div>
-          <div class="home-sectionintroexperience">
-            <div class="home-lang-frame">
-              <div class="home-languges">
-                <div class="home-group43">
-                  <div class="home-group421">
-                    <img
-                      src="public/external/js2713-gxbt.svg"
-                      alt="js2713"
-                      class="home-js"
-                    />
-                    <span class="home-text31">JavaScript</span>
-                  </div>
-                </div>
-                <div class="home-group47">
-                  <div class="home-group422">
-                    <span class="home-text32">HTML</span>
-                    <div class="home-frameiconfiletypehtml">
-                      <img
-                        src="public/external/vector2713-l32g.svg"
-                        alt="Vector2713"
-                        class="home-vector10"
-                      />
-                      <img
-                        src="public/external/vector2713-4phv.svg"
-                        alt="Vector2713"
-                        class="home-vector11"
-                      />
-                      <img
-                        src="public/external/vector2713-2ook.svg"
-                        alt="Vector2713"
-                        class="home-vector12"
-                      />
-                      <img
-                        src="public/external/vector2713-s2cq.svg"
-                        alt="Vector2713"
-                        class="home-vector13"
-                      />
-                      <div class="home-group1">
-                        <img
-                          src="public/external/vector2713-nfpc.svg"
-                          alt="Vector2713"
-                          class="home-vector14"
-                        />
-                        <img
-                          src="public/external/vector2713-ypm.svg"
-                          alt="Vector2713"
-                          class="home-vector15"
-                        />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="home-group44">
-                  <div class="home-group423">
-                    <span class="home-text33">CSS</span>
-                    <div class="home-frameiconfiletypecss">
-                      <img
-                        src="public/external/vector2713-157.svg"
-                        alt="Vector2713"
-                        class="home-vector16"
-                      />
-                      <img
-                        src="public/external/vector2713-n1p0b.svg"
-                        alt="Vector2713"
-                        class="home-vector17"
-                      />
-                      <img
-                        src="public/external/vector2713-pdq9.svg"
-                        alt="Vector2713"
-                        class="home-vector18"
-                      />
-                      <img
-                        src="public/external/vector2713-go6m.svg"
-                        alt="Vector2713"
-                        class="home-vector19"
-                      />
-                      <img
-                        src="public/external/vector2713-9qxj.svg"
-                        alt="Vector2713"
-                        class="home-vector20"
-                      />
-                      <div class="home-group2">
-                        <img
-                          src="public/external/vector2713-xutx.svg"
-                          alt="Vector2713"
-                          class="home-vector21"
-                        />
-                        <img
-                          src="public/external/vector2713-u6dh.svg"
-                          alt="Vector2713"
-                          class="home-vector22"
-                        />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="home-group45">
-                  <div class="home-group424">
-                    <span class="home-text34">SQL</span>
-                    <div class="home-simpleiconsnextdotjs">
-                      <img
-                        src="public/external/image22713-t6e6-200h.png"
-                        alt="image22713"
-                        class="home-image2"
-                      />
-                    </div>
-                    <div class="home-nextjs"></div>
-                  </div>
-                </div>
-                <div class="home-group46">
-                  <div class="home-group425">
-                    <span class="home-text35">Figma</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="home-frame47">
-            <div class="home-frame65">
-              <span class="home-text36">Javascript</span>
-            </div>
-            <div class="home-frame63">
-              <span class="home-text37">HTML</span>
-            </div>
-            <div class="home-frame64"><span class="home-text38">CSS</span></div>
-          </div>
-          <div class="home-frame402">
-            <div class="home-frame403">
-              <a href="index.html">
-              <span class="home-text39">Home Page</span></a>
-              <a href="education.html">
-              <span class="home-text40">Education</span></a>
-              <a href="experience.html">
-              <span class="home-text41">Experience</span></a>
-              <div class="home-contact">
-                <a
-                  href="https://www.figma.com/files/team/1488971890131431892/user/1488971888299703155?fuid=1488971888299703155"
-                  target="_blank"
-                  rel="noreferrer noopener"
-                  class="home-link2"
-                >
-                  <img
-                    src="public/external/solarfigmaboldduotone6984-sovj.svg"
-                    alt="solarfigmaboldduotone6984"
-                    class="home-solarfigmaboldduotone"
-                  />
-                </a>
-                <a
-                  href="https://github.com/Onga24"
-                  target="_blank"
-                  rel="noreferrer noopener"
-                  class="home-link3"
-                >
-                  <img
-                    src="public/external/mdigithub5704-4kv.svg"
-                    alt="mdigithub5704"
-                    class="home-mdigithub2"
-                  />
-                </a>
-                <img
-                  src="public/external/materialsymbolsmailrounded5704-fufk.svg"
-                  alt="materialsymbolsmailrounded5704"
-                  class="home-materialsymbolsmailrounded2"
-                />
-                <img
-                  src="public/external/mdilinkedin2727-udqn.svg"
-                  alt="mdilinkedin2727"
-                  class="home-mdilinkedin2"
-                />
-              </div>
-            </div>
+            <img
+              src="public/external/vector2740-cqv.svg"
+              alt="Vector2740"
+              class="homemobile-vector8"
+            />
           </div>
         </div>
       </div>
